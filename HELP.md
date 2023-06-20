@@ -22,3 +22,4 @@ The following guides illustrate how to use some features concretely:
 
 Branch Two Rebases - commit 2
 Branch Two Rebases - commit 3
+Branch Two Rebases - commit 7
