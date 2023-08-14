@@ -11,7 +11,7 @@ import java.util.List;
 @RestController
 public class MainController {
 
-    private List<Book> books;
+    private final List<Book> books;
 
     public MainController() {
         this.books = List.of(
@@ -22,7 +22,7 @@ public class MainController {
 
     @GetMapping("/")
     public String getHome() {
-        return "Hello World from main service!";
+        return "Hello World from main service!!!";
     }
 
     @GetMapping("/books")
@@ -30,4 +30,8 @@ public class MainController {
         return new ResponseEntity<>(this.books, HttpStatus.OK);
     }
 
+    @GetMapping("/test")
+    public String getTest() {
+        return "test";
+    }
 }
