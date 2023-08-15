@@ -37,10 +37,19 @@ public class MainController {
 
     @GetMapping("/test")
     public String getTest() {
+        int numberFeatureBranch = 20;
+
+        System.out.println(numberFeatureBranch);
+
         int numberDevelopBranch = 10;
 
         System.out.println(numberDevelopBranch);
 
         return "test";
+    }
+
+    @GetMapping("/feature-branch")
+    public String getFeatureBranch() {
+        return "feature-branch";
     }
 }
