@@ -30,8 +30,17 @@ public class MainController {
         return new ResponseEntity<>(this.books, HttpStatus.OK);
     }
 
+    @GetMapping("/develop")
+    public String getDevelop() {
+        return "develop";
+    }
+
     @GetMapping("/test")
     public String getTest() {
+        int numberDevelopBranch = 10;
+
+        System.out.println(numberDevelopBranch);
+
         return "test";
     }
 }
