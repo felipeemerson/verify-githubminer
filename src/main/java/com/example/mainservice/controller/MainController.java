@@ -34,4 +34,9 @@ public class MainController {
     public String getTest() {
         return "test";
     }
+
+    @GetMapping("/branch-feature")
+    public String getBranchFeature() {
+        return "branch-feature";
+    }
 }
