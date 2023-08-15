@@ -50,6 +50,8 @@ public class MainController {
 
     @GetMapping("/feature-branch")
     public String getFeatureBranch() {
+        System.out.print("Another modification");
+
         return "feature-branch";
     }
 }
