@@ -1,4 +1,4 @@
-package com.example.mainservice.controller;
+package com.example.mainservice;
 
 import com.example.mainservice.entity.User;
 import org.springframework.web.bind.annotation.GetMapping;
