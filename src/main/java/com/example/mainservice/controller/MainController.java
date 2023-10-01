@@ -16,7 +16,7 @@ public class MainController {
     public MainController() {
         this.books = List.of(
                 new Book(1L, "Felipe", "Investigating bug reports"),
-                new Book(2L, "Marcio", "Hiring at Dell")
+                new Book(3L, "Marcio", "Hiring at Dell")
         );
     }
 
